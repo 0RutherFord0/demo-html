@@ -1,0 +1,32 @@
+.left{
+    width: 50%;
+    height: 100%;
+    background-color: red;
+    float: left;
+
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    float: left;
+
+}
+body{
+    height: 100%;
+}
+html{
+    height: 100%;
+}
+@media screen and (max-width: 600px){
+    .left{
+        width: 100%;
+        background-color: orangered;
+    
+    }
+    .right{
+        width: 100%;
+        background-color: green;
+    }
+}
