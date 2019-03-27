@@ -218,7 +218,7 @@ html, body{
           color: white;
           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
           font-size: 15px;
-       }
+      }
 
         .smallheadline h4{
           color: white;
@@ -264,7 +264,7 @@ html, body{
           .headline1{
             padding: 10px;
             width: 15em;
-        }
+          }
           .paragraph1{
             height: 580px;
           }
@@ -277,9 +277,27 @@ html, body{
           .smallheadline h4{
             font-size: 13px;
           }
-
-
         }
+        /* Custom Scrollbars */
+         ::-webkit-scrollbar {
+          width: 5px;
+         }
+
+         /* Track */
+         ::-webkit-scrollbar-track {
+         background: #f1f1f1; 
+         }
+ 
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+        background: #888; 
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+        }
+        
         
 
         
