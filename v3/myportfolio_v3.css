@@ -3,8 +3,9 @@ html, body{
   height: 100%;
   margin: 0%;
   padding: 0%;
-  
-}
+  }
+
+  /* Style the outher navigation bar */
 .topnav {
 
     background-color: #333;
@@ -21,6 +22,7 @@ html, body{
     text-decoration: none;
     font-size: 17px;
     height: 50px;
+
       
   }
   
@@ -38,6 +40,7 @@ html, body{
     height: 50px;
     padding: 20px;
   }
+  /* pushed element to righthand side */
 
   .left-push{
     position: relative;
@@ -46,19 +49,22 @@ html, body{
     padding: 5px;
 
     }
-
+    /* Corner of navigation bar */
     #rcorners1 {
       border-radius: 25px;
       background: #333333;
       padding: 20px; 
       
+      
     }
-
+    /* Corner of inside elemet of navigation bar */
     .active2{
       border-radius: 15px;
       background: #333333;
       padding: 20px; 
     }
+
+    /* Style H1 tag */
 
     .headline1{
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -83,6 +89,8 @@ html, body{
       font-size: 10px;
       color: black;
       }
+      
+      /* Style of First Image */
 
     .image1 img{
       margin: 250px;
@@ -94,12 +102,16 @@ html, body{
       display: block;
 
     }
-    
+
+    /* Style of Secound Image */
+
     .image3 img{
       height: 400px;
       width: 100%;
     }
     
+    /* Style of Secound Section */
+
     .paragraph1{
       background-color: #8C43FF;
       border-top-left-radius: 10px;
@@ -186,7 +198,7 @@ html, body{
         border-bottom-right-radius: 15px;
         height :250px;
         padding: 20px;
-        margin-top: -4rem;
+        margin-top: -8rem;
 
         
 
@@ -198,6 +210,7 @@ html, body{
           text-align: center;
           font-family: cursive;
           font-size: 20px;
+          padding: 40px 40px 0px 40px;
           
         }
         .smallheadline h2{
@@ -215,11 +228,17 @@ html, body{
         .material-icons {
           font-size: 50px;
           color: white;
-        
+                  
         }
         .material-icons:hover{
           color: #333333;
         }
+
+        .smallheadline a {
+          padding: 10px;
+          margin: 1px;
+        }
+        
         
 
 
