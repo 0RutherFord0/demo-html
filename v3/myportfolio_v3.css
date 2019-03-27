@@ -257,6 +257,8 @@ html, body{
             margin: 250px 90px 180px 90px;
             padding: 10px;
             left: 0%;
+            height: 150px;
+            width: 200px;
           }
           #rcorner1{
             width: -webkit-fill-available;
